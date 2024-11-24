@@ -1,3 +1,5 @@
+from dotenv import load_dotenv
+load_dotenv()  # Load environment variables from .env
 from telethon import TelegramClient, events
 import asyncio
 import logging
